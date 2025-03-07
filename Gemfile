@@ -56,3 +56,4 @@ end
 
 gem 'mongoid', '~> 8.0'
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'haml'
