@@ -1,0 +1,8 @@
+development:
+  clients:
+    default:
+      uri: <%= ENV['MONGODB_URI'] %>
+      options:
+        connect_timeout: 15
+        retry_writes: true
+        retry_reads: true
